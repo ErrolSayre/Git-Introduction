@@ -2,10 +2,22 @@ Introduction to Git
 for IT Staff
 
 What is Git?
-	"not version control, change control"
-	changes are tracked as individual bLOCks (lines of code) rather than by file
+	“not version control, change control”
+	changes are tracked as individual blocks (lines of code) rather than by file
+
+Joel Spolsky Quot
+	“The interesting part is that these systems think in terms of changes, not in terms of versions.
+	“That’s a very zen-like thing to say, I know. Traditional version control thinks: OK, I have version 1. And now I have version 2. And now I have version 3.
+	“And distributed version control thinks, I had nothing. And then I got these changes. And then I got these other changes.
+	“It’s a different Program Model, so the user model has to change.
+	...
+	“In Subversion, you might think, ‘bring my version up to date with the main version’ or ‘go back to the previous version.’
+	“In [Git], you think, ‘get me Jacob’s change set’ or ‘let’s just forget that change set.’
+	“If you come at [Git] with a Subversion mindset, things will almost work, but when they don’t, you’ll be confused, unhappy, and unsuccessful, and you’ll hate [Git].
+	“Whereas if you free your mind and reimagine version control, and grok the zen of the difference between thinking about managing the versions vs. thinking about managing the changes, you’ll become enlightened and happy and realize that this is the way version control was meant to work.”
 	
 Links
 	http://danielmiessler.com/study/git/
 	http://www.git-tower.com/learn/version-control-best-practices.html
+	http://www.alistapart.com/articles/get-started-with-git/
 	http://git-scm.com/book/
