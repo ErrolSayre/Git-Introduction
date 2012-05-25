@@ -6,6 +6,17 @@ What is Git?
 	changes are tracked as individual blocks (lines of code) rather than by file
 	essentially Git tracks diffs
 
+What can I use it for?
+	source control, obviously
+	any collection of files that you would benefit from keeping a running log for
+	website content
+	system config files (most systems will ignore a .git directory)
+		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
+	presentation projects
+
+Git Basics
+	creating a repo
+
 Git Quirks
 	staging area
 		Git is fairly unique in allowing the user to craft an ideal commit out of the files they wish to use for it rather than all changes on disk.
