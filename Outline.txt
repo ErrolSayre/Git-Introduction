@@ -6,7 +6,7 @@ What is Git?
 	changes are tracked as individual blocks (lines of code) rather than by file
 	essentially Git tracks diffs
 
-Joel Spolsky Quot
+Joel Spolsky Quote
 	“The interesting part is that these systems think in terms of changes, not in terms of versions.
 	“That’s a very zen-like thing to say, I know. Traditional version control thinks: OK, I have version 1. And now I have version 2. And now I have version 3.
 	“And distributed version control thinks, I had nothing. And then I got these changes. And then I got these other changes.
