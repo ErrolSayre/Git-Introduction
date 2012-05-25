@@ -11,6 +11,7 @@ Git Quirks
 		Git is fairly unique in allowing the user to craft an ideal commit out of the files they wish to use for it rather than all changes on disk.
 		This is done by adding files to a staging area before committing those specific files.
 		This allows you to collect files with related changes out of all the files that have been changed to make semantic commits.
+		Most of the GUI Git clients abstract this away from you by showing checkmarks or another selection means to pick the files to stage.
 
 Joel Spolsky Quote
 	“The interesting part is that these systems think in terms of changes, not in terms of versions.
