@@ -52,6 +52,13 @@ Joel Spolsky Quote
 	“In [Git], you think, ‘get me Jacob’s change set’ or ‘let’s just forget that change set.’
 	“If you come at [Git] with a Subversion mindset, things will almost work, but when they don’t, you’ll be confused, unhappy, and unsuccessful, and you’ll hate [Git].
 	“Whereas if you free your mind and reimagine version control, and grok the zen of the difference between thinking about managing the versions vs. thinking about managing the changes, you’ll become enlightened and happy and realize that this is the way version control was meant to work.”
+
+Example Campus Use
+	UM Events
+	UM RAC
+		Xcode includes built-in Git support
+		This project includes a sub-project of the actual Xcode repo in addition to the outer wrapper repo.
+	other under-the-radar projects (I'll mention these in person but not in the contents of this repo.)
 	
 Links
 	http://danielmiessler.com/study/git/
