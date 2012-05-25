@@ -16,6 +16,24 @@ What can I use it for?
 
 Git Basics
 	creating a repo
+	staging
+	committing
+
+Git Remote Basics
+	cloning
+	fetching
+	pushing
+
+Git Advanced Topics
+	branching
+		allows you to make experimental or long-term changes without affecting the general code-base
+		collect a long series of changes that can then be applied all at once when completed
+		collect history of volatile changes while experimenting
+	merging
+		used to bring a branch into another (or the master)
+		used to address conflicts when updating a branch from a remote repo
+	tagging
+		allows you to assign a more readable name to a particular set of changes
 
 Git Quirks
 	staging area
