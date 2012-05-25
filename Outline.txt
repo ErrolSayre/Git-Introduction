@@ -4,6 +4,7 @@ for IT Staff
 What is Git?
 	“not version control, change control”
 	changes are tracked as individual blocks (lines of code) rather than by file
+	essentially Git tracks diffs
 
 Joel Spolsky Quot
 	“The interesting part is that these systems think in terms of changes, not in terms of versions.
