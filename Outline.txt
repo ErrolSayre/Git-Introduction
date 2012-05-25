@@ -1,0 +1,11 @@
+Introduction to Git
+for IT Staff
+
+What is Git?
+	"not version control, change control"
+	changes are tracked as individual bLOCks (lines of code) rather than by file
+	
+Links
+	http://danielmiessler.com/study/git/
+	http://www.git-tower.com/learn/version-control-best-practices.html
+	http://git-scm.com/book/
