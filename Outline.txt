@@ -6,6 +6,12 @@ What is Git?
 	changes are tracked as individual blocks (lines of code) rather than by file
 	essentially Git tracks diffs
 
+Git Quirks
+	staging area
+		Git is fairly unique in allowing the user to craft an ideal commit out of the files they wish to use for it rather than all changes on disk.
+		This is done by adding files to a staging area before committing those specific files.
+		This allows you to collect files with related changes out of all the files that have been changed to make semantic commits.
+
 Joel Spolsky Quote
 	“The interesting part is that these systems think in terms of changes, not in terms of versions.
 	“That’s a very zen-like thing to say, I know. Traditional version control thinks: OK, I have version 1. And now I have version 2. And now I have version 3.
