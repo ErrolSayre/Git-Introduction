@@ -12,7 +12,7 @@ What can I use it for?
 	website content
 	system config files (most systems will ignore a .git directory)
 		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
-	presentation projects
+	presentation projects (such as this one)
 
 Git Basics
 	creating a repo
