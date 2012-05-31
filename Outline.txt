@@ -17,17 +17,35 @@ What can I use it for?
 		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
 	presentation projects (such as this one)
 
+Get Git
+	(I plan to do this in the presentation stage but this may prove difficult for all users to be on the same page)
+	Mac		http://code.google.com/p/git-osx-installer
+	Windows	http://code.google.com/p/msysgit
+		be sure to select full installer that doesn't mention "hack on git"
+
 Git Basics
+	setup global git config
+		git config --global user.name "First Last"
+		git config --global user.email user@olemiss.edu
 	creating a repo
 	staging
 		pick the changes (files or lines even) you wish to commit
 		(will talk more about this later)
 	committing
+		message style (present indicative summary, free-form description)
+
+Git Remote Setup
+	create your keys
+	submit public key
+		(I'll create a repo for users as needed during the repo into Gitolite.)
 
 Git Remote Basics
 	cloning
 	fetching
 	pushing
+
+GitHub for Mac/Windows
+	easier mechanism for managing your changes
 
 Git Advanced Topics
 	branching
@@ -46,7 +64,9 @@ Git Quirks
 		This is done by adding files to a staging area before committing those specific files.
 		This allows you to collect files with related changes out of all the files that have been changed to make semantic commits.
 		Most of the GUI Git clients abstract this away from you by showing checkmarks or another selection means to pick the files to stage.
-
+	SAP Eclipse Projects
+		be sure to create these in the CLI as the GitHub GUI for Windows will automatically ignore most of the files
+		also be aware that the .project and .classpath files will not be included by default so you'll have to manually add them if you'd like to keep these as a part of your repository
 
 
 ---- Presentation Resources ----
@@ -74,3 +94,6 @@ Links
 	http://www.git-tower.com/learn/version-control-best-practices.html
 	http://www.alistapart.com/articles/get-started-with-git/
 	http://git-scm.com/book/
+
+Common Commands
+	
