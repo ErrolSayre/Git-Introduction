@@ -20,7 +20,7 @@ What can I use it for?
 Get Git
 	(I plan to do this in the presentation stage but this may prove difficult for all users to be on the same page)
 	Mac		http://code.google.com/p/git-osx-installer
-	Windows	http://code.google.com/p/msysgit
+	Windows	http://msysgit.github.com/
 		be sure to select full installer that doesn't mention "hack on git"
 
 Git Basics
