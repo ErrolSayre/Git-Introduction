@@ -33,6 +33,8 @@ Git Basics
 		(will talk more about this later)
 	committing
 		message style (present indicative summary, free-form description)
+		summary should indicate _what the change will do_ when applied to the project
+			Read as if: "This change [insert your summary here] when added to your repo."
 
 Git Remote Setup
 	create your keys
