@@ -10,23 +10,28 @@ What is Git?
 	essentially Git tracks diffs
 
 What can I use it for?
-	source control, obviously
 	any collection of files that you would benefit from keeping a running log for
+	source control, obviously
 	website content
 	system config files (most systems will ignore a .git directory)
 		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
 	presentation projects (such as this one)
 
+Git Model
+	distributed SCM
+	every working copy has its own repository
+	to share, changes are pushed-to or pulled-from other repositories
+
 Get Git
 	(I plan to do this in the presentation stage but this may prove difficult for all users to be on the same page)
 	Mac		http://code.google.com/p/git-osx-installer
 	Windows	http://msysgit.github.com/
-		be sure to select full installer that doesn't mention "hack on git"
+		be sure to select Git For Windows rather than msysGit
 
 Git Basics
 	setup global git config
 		git config --global user.name "First Last"
-		git config --global user.email user@olemiss.edu
+		git config --global user.email user@host.tld
 	creating a repo
 	staging
 		pick the changes (files or lines even) you wish to commit
