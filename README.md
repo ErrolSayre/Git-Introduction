@@ -6,6 +6,13 @@ Feel free to make use of this project for derivative works with appropriate attr
 
 ## Links for UM presentation
 
-https://github.com/ErrolSayre/Git-Workshop-2012.git
+* https://github.com/ErrolSayre/Git-Workshop-2012.git
 
-https://projects.it.olemiss.edu/projects/git-resources/wiki/Create_SSH_authentication_keys
+* https://projects.it.olemiss.edu/projects/git-resources/wiki/Create_SSH_authentication_keys
+
+* http://danielmiessler.com/study/git/
+* http://www.git-tower.com/learn/version-control-best-practices.html
+* http://www.alistapart.com/articles/get-started-with-git/
+* http://git-scm.com/book/
+
+* http://shop.oreilly.com/product/0636920024774.do?code=VDWK
