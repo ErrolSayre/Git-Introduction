@@ -101,6 +101,7 @@ Links
 	http://www.git-tower.com/learn/version-control-best-practices.html
 	http://www.alistapart.com/articles/get-started-with-git/
 	http://git-scm.com/book/
+	http://shop.oreilly.com/product/0636920024774.do?code=VDWK
 
 Common Commands
 	
