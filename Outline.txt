@@ -36,7 +36,7 @@ Git Basics
 	creating a repo
 	staging
 		pick the changes (files or lines even) you wish to commit
-		(will talk more about this later)
+		let's you fine-tune your commits to be atomic blocks of changes (even to the line level)
 	committing
 		message style (present indicative summary, free-form description)
 		summary should indicate _what the change will do_ when applied to the project
@@ -52,7 +52,7 @@ UM Remote Setup
 	create your keys
 	submit public key
 		(I'll create a repo for users as needed during the repo into Gitolite.)
-		see link on project page
+		see link on project readme
 
 Git Advanced Topics
 	branching
