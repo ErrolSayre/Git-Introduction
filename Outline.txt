@@ -80,6 +80,11 @@ Post-install Setup
 		git config --global user.name "First Last"
 		git config --global user.email user@host.tld
 	participants generate and submit ssh keys
+		cp ~/.ssh/id_rsa.pub ~/Desktop/<your webid>.pub
+		got to https://projects.it.olemiss.edu/projects/git-resources/issues/new
+			subject: Keyfile for <your name>
+			attach <your webid>.pub under the files section
+			create
 
 Hands-on Example
 	after having run through some examples during the talk, now run the group as a whole through a common project
