@@ -9,6 +9,11 @@ What is Git?
 	changes are tracked as individual blocks (lines of code) rather than by file
 	essentially Git tracks diffs
 
+Git Model
+	distributed SCM
+	every working copy has its own repository
+	to share, changes are pushed-to or pulled-from other repositories
+
 What can I use it for?
 	any collection of files that you would benefit from keeping a running log for
 	source control, obviously
@@ -17,15 +22,11 @@ What can I use it for?
 		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
 	presentation projects (such as this one)
 
-Git Model
-	distributed SCM
-	every working copy has its own repository
-	to share, changes are pushed-to or pulled-from other repositories
-
 Get Git
 	(I plan to do this in the presentation stage but this may prove difficult for all users to be on the same page)
 	Mac		http://code.google.com/p/git-osx-installer
-	Windows	http://msysgit.github.com/
+			http://mac.github.com
+	Windows	http://windows.github.com
 		be sure to select Git For Windows rather than msysGit
 
 Git Basics
@@ -41,18 +42,17 @@ Git Basics
 		summary should indicate _what the change will do_ when applied to the project
 			Read as if: "This change [insert your summary here] when added to your repo."
 
-Git Remote Setup
-	create your keys
-	submit public key
-		(I'll create a repo for users as needed during the repo into Gitolite.)
-
 Git Remote Basics
 	cloning
+		clone - https://github.com/ErrolSayre/Git-Workshop-2012.git
 	fetching
 	pushing
 
-GitHub for Mac/Windows
-	easier mechanism for managing your changes
+UM Remote Setup
+	create your keys
+	submit public key
+		(I'll create a repo for users as needed during the repo into Gitolite.)
+		see link on project page
 
 Git Advanced Topics
 	branching
