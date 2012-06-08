@@ -1,6 +1,8 @@
 Introduction to Git
 for University of Mississippi IT Staff
 
+---- TODO ----
+Before the next workshop I want to rework the presentation to include demonstrations in the talk and totally conclude the talk before beginning the hands-on portion. For the hands-on I also plan to start everyone on in the CLI rather than trying to do a mixed group.
 
 
 ---- Presentation Points ----
@@ -22,17 +24,7 @@ What can I use it for?
 		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
 	presentation projects (such as this one)
 
-Get Git
-	(I plan to do this in the presentation stage but this may prove difficult for all users to be on the same page)
-	Mac		http://code.google.com/p/git-osx-installer
-			http://mac.github.com
-	Windows	http://windows.github.com
-		be sure to select Git For Windows rather than msysGit
-
 Git Basics
-	setup global git config
-		git config --global user.name "First Last"
-		git config --global user.email user@host.tld
 	creating a repo
 	staging
 		pick the changes (files or lines even) you wish to commit
@@ -44,7 +36,6 @@ Git Basics
 
 Git Remote Basics
 	cloning
-		clone - https://github.com/ErrolSayre/Git-Workshop-2012.git
 	fetching
 	pushing
 
@@ -76,6 +67,39 @@ UM Quirks
 	SAP Eclipse Projects
 		be sure to create these in the CLI as the GitHub GUI for Windows will automatically ignore most of the files
 		also be aware that the .project and .classpath files will not be included by default so you'll have to manually add them if you'd like to keep these as a part of your repository
+
+Get Git
+	(I plan to do this in the presentation stage but this may prove difficult for all users to be on the same page)
+	Mac		http://code.google.com/p/git-osx-installer
+			http://mac.github.com
+	Windows	http://windows.github.com
+		be sure to select Git For Windows rather than msysGit
+
+Post-install Setup
+	setup global git config
+		git config --global user.name "First Last"
+		git config --global user.email user@host.tld
+	participants generate and submit ssh keys
+
+Hands-on Example
+	after having run through some examples during the talk, now run the group as a whole through a common project
+		work from a UM remote to simplify setup
+		(pre-create workshop repo with appropriate usernames listed so only keys have to be added)
+	
+	git clone scm@web5.olemiss.edu:Workshop2
+		everyone create a new file for yourself in the profiles directory —say something about yourself
+	git commit -am 'Adds a profile for <your name>'
+	git push origin master
+	git pull origin master
+	ls -la profiles/
+	git log --pretty=oneline
+	git log --pretty=format:"%h - %an, %ar : %s"
+		(perhaps make each of these commands on a slide by itself to facilitate those less familiar with CLI environments)
+
+Try it on for size
+	each user picks their own project to place in Git
+	group works together to figure issues out
+
 
 
 ---- Presentation Resources ----
