@@ -1,50 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-4 -2 108 144">
- <title>Some data flows and storage levels in the Git revision control system</title>
- <desc>Some data flows and storage levels in the Git revision control system, drawn by CMG Lee.</desc>
- <defs>
-  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-   <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-   <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-  </linearGradient>
-  <path id="arrow" d="M -2 -5 L 0 0 L 2 -5" stroke="#000000" fill="none"/>
-
-  <rect id="remote" x="0" y="0" width="100" height="20" rx="5" ry="5" stroke="#000000" stroke-width="0.5"/>
-  <rect id="local" x="20" y="40" width="80" height="20" rx="5" ry="5" stroke="#000000" stroke-width="0.5"/>
-  <rect id="index" x="40" y="80" width="60" height="20" rx="5" ry="5" stroke="#000000" stroke-width="0.5"/>
-  <rect id="work" x="0" y="120" width="100" height="20" rx="5" ry="5" stroke="#000000" stroke-width="0.5"/>
- </defs>
- <g id="main" font-family="sans-serif" font-size="8" text-anchor="middle" stroke-linecap="round">
-  <g stroke="#000000" fill="none">
-   <path d="M 5 25 V 35 M 25 25 V 35 M 65 25 V 35" stroke-dasharray="0.1,1.5"/>
-   <path d="M 5 20 V 25 M 5 35 V 120 M 5 40 Q 5 50 15 50 H 20 M 25 20 V 25 M 25 35 V 120 M 65 20 V 25 M 65 35 V 120"/>
-  </g>
-
-  <use xlink:href="#arrow" transform="translate(5,120)"/>
-  <use xlink:href="#arrow" transform="translate(20,50) rotate(270)"/>
-  <text x="7" y="70" dy="0.6ex" text-anchor="start">pull</text>
-  <use xlink:href="#arrow" transform="translate(25,40)"/>
-  <text x="26" y="108" dy="0.6ex" text-anchor="start"><tspan letter-spacing="-0.5">checkout</tspan><tspan x="30" dy="1em">HEAD</tspan></text>
-  <use xlink:href="#arrow" transform="translate(25,120)"/>
-  <text x="28" y="30" dy="0.6ex" text-anchor="start">fetch</text>
-  <use xlink:href="#arrow" transform="translate(65,20) rotate(180)"/>
-  <text x="68" y="30" dy="0.6ex" text-anchor="start">push</text>
-  <use xlink:href="#arrow" transform="translate(65,60) rotate(180)"/>
-  <text x="68" y="70" dy="0.6ex" text-anchor="start">commit</text>
-  <use xlink:href="#arrow" transform="translate(65,100) rotate(180)"/>
-  <text x="68" y="110" dy="0.6ex" text-anchor="start">add</text>
-
-  <use xlink:href="#remote" fill="#66ccff"/>
-  <use xlink:href="#remote" fill="url(#gradient)"/>
-  <text x="50" y="10" dy="0.6ex">Remote repository</text>
-  <use xlink:href="#local" fill="#66cc66"/>
-  <use xlink:href="#local" fill="url(#gradient)"/>
-  <text x="60" y="50" dy="0.6ex">Local repository</text>
-  <use xlink:href="#index" fill="#ffcc66"/>
-  <use xlink:href="#index" fill="url(#gradient)"/>
-  <text x="70" y="90" dy="0.6ex">Index (cache)</text>
-  <use xlink:href="#work" fill="#ff6666"/>
-  <use xlink:href="#work" fill="url(#gradient)"/>
-  <text x="50" y="130" dy="0.6ex">Working directory</text>
- </g>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<title>Some data flows and storage levels in the Git revision control system</title>
+<desc>Some data flows and storage levels in the Git revision control system, drawn by CMG Lee.</desc>
+<g id="main">
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1,1.5" d="M54.5,146.5v55
+			 M164.5,146.5v55 M384.5,146.5v55"/>
+		<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M54.5,119v27.5 M54.5,201.5V669 M54.5,229
+			c0,36.667,18.333,55,55,55H137 M164.5,119v27.5 M164.5,201.5V669 M384.5,119v27.5 M384.5,201.5V669"/>
+	</g>
+	<g transform="translate(5,120)">
+		<path id="arrow" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M43.5,641.5l11,27.5l11-27.5"/>
+	</g>
+	<g transform="translate(20,50) rotate(270)">
+		<path id="arrow_1_" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M109.5,295l27.5-11l-27.5-11"/>
+	</g>
+	<text transform="matrix(1 0 0 1 65.5 407.1992)" font-family="'MyriadPro-Regular'" font-size="44">pull</text>
+	<g transform="translate(25,40)">
+		<path id="arrow_2_" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M153.5,201.5l11,27.5l11-27.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 170 616.1992)" font-family="'MyriadPro-Regular'" font-size="44" letter-spacing="-2">checkout</text>
+	<text transform="matrix(1 0 0 1 192 660.1992)" font-family="'MyriadPro-Regular'" font-size="44">HEAD</text>
+	<g transform="translate(25,120)">
+		<path id="arrow_3_" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M153.5,641.5l11,27.5l11-27.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 181 187.1992)" font-family="'MyriadPro-Regular'" font-size="44">fetch</text>
+	<g transform="translate(65,20) rotate(180)">
+		<path id="arrow_4_" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M395.5,146.5l-11-27.5l-11,27.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 401 187.1992)" font-family="'MyriadPro-Regular'" font-size="44">push</text>
+	<g transform="translate(65,60) rotate(180)">
+		<path id="arrow_5_" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M395.5,366.5l-11-27.5l-11,27.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 401 407.1992)" font-family="'MyriadPro-Regular'" font-size="44">commit</text>
+	<g transform="translate(65,100) rotate(180)">
+		<path id="arrow_6_" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M395.5,586.5l-11-27.5l-11,27.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 401 627.1992)" font-family="'MyriadPro-Regular'" font-size="44">add</text>
+	<g>
+		<path id="remote" fill="#66CCFF" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M54.5,9h495
+			C564.688,9,577,21.312,577,36.5v55c0,15.188-12.312,27.5-27.5,27.5h-495C39.312,119,27,106.688,27,91.5v-55
+			C27,21.312,39.312,9,54.5,9z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="remote_2_" gradientUnits="userSpaceOnUse" x1="0.999" y1="792.5039" x2="0.999" y2="791.5039" gradientTransform="matrix(550 0 0 -110 -247.5 87184.5)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<path id="remote_1_" fill="url(#remote_2_)" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M54.5,9h495
+			C564.688,9,577,21.312,577,36.5v55c0,15.188-12.312,27.5-27.5,27.5h-495C39.312,119,27,106.688,27,91.5v-55
+			C27,21.312,39.312,9,54.5,9z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 122.2617 77.1992)" font-family="'MyriadPro-Semibold'" font-size="44">Remote repository</text>
+	<g>
+		<path id="local" fill="#66CC66" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M164.5,229h385
+			c15.188,0,27.5,12.312,27.5,27.5v55c0,15.188-12.312,27.5-27.5,27.5h-385c-15.188,0-27.5-12.312-27.5-27.5v-55
+			C137,241.312,149.312,229,164.5,229z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="local_2_" gradientUnits="userSpaceOnUse" x1="0.9985" y1="792.5039" x2="0.9985" y2="791.5039" gradientTransform="matrix(440 0 0 -110 -82.5 87404.5)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<path id="local_1_" fill="url(#local_2_)" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M164.5,229h385
+			c15.188,0,27.5,12.312,27.5,27.5v55c0,15.188-12.312,27.5-27.5,27.5h-385c-15.188,0-27.5-12.312-27.5-27.5v-55
+			C137,241.312,149.312,229,164.5,229z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 201.6992 297.1992)" font-family="'MyriadPro-Semibold'" font-size="44">Local repository</text>
+	<g>
+		<path id="index" fill="#FFCC66" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M274.5,449h275
+			c15.188,0,27.5,12.312,27.5,27.5v55c0,15.188-12.312,27.5-27.5,27.5h-275c-15.188,0-27.5-12.312-27.5-27.5v-55
+			C247,461.312,259.312,449,274.5,449z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="index_2_" gradientUnits="userSpaceOnUse" x1="0.9985" y1="792.5039" x2="0.9985" y2="791.5039" gradientTransform="matrix(330 0 0 -110 82.5 87624.5)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<path id="index_1_" fill="url(#index_2_)" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M274.5,449h275
+			c15.188,0,27.5,12.312,27.5,27.5v55c0,15.188-12.312,27.5-27.5,27.5h-275c-15.188,0-27.5-12.312-27.5-27.5v-55
+			C247,461.312,259.312,449,274.5,449z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 278.7109 517.1992)" font-family="'MyriadPro-Semibold'" font-size="44">Index (cache)</text>
+	<g>
+		<path id="work" fill="#FF6666" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M54.5,669h495
+			c15.188,0,27.5,12.312,27.5,27.5v55c0,15.188-12.312,27.5-27.5,27.5h-495C39.312,779,27,766.688,27,751.5v-55
+			C27,681.312,39.312,669,54.5,669z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="work_2_" gradientUnits="userSpaceOnUse" x1="0.999" y1="792.5039" x2="0.999" y2="791.5039" gradientTransform="matrix(550 0 0 -110 -247.5 87844.5)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<path id="work_1_" fill="url(#work_2_)" stroke="#000000" stroke-width="3" stroke-linecap="round" d="M54.5,669h495
+			c15.188,0,27.5,12.312,27.5,27.5v55c0,15.188-12.312,27.5-27.5,27.5h-495C39.312,779,27,766.688,27,751.5v-55
+			C27,681.312,39.312,669,54.5,669z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 131.2305 737.1992)" font-family="'MyriadPro-Semibold'" font-size="44">Working directory</text>
+</g>
 </svg>
