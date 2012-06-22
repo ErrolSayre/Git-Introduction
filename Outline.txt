@@ -98,6 +98,10 @@ Hands-on Example
 	git log --pretty=format:"%h - %an, %ar : %s"
 		(perhaps make each of these commands on a slide by itself to facilitate those less familiar with CLI environments)
 
+Making use of Git
+	need to add a component to the slides and to the hands-on that demonstrates undoing changes.
+	Alternatively I need to do an Advanced Git workshop.
+
 Try it on for size
 	each user picks their own project to place in Git
 	group works together to figure issues out
