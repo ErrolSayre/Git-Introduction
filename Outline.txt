@@ -11,11 +11,6 @@ What is Git?
 	changes are tracked as individual blocks (lines of code) rather than by file
 	essentially Git tracks diffs
 
-Git Model
-	distributed SCM
-	every working copy has its own repository
-	to share, changes are pushed-to or pulled-from other repositories
-
 What can I use it for?
 	any collection of files that you would benefit from keeping a running log for
 	source control, obviously
@@ -23,6 +18,18 @@ What can I use it for?
 	system config files (most systems will ignore a .git directory)
 		I use this for the settings in use on web3 and web5 to ensure changes to these settings can be discovered.
 	presentation projects (such as this one)
+
+Git Model
+	distributed SCM
+	every working copy has its own repository
+	to share, changes are pushed-to or pulled-from other repositories
+
+Git Quirks
+	staging area
+		Git is fairly unique in allowing the user to craft an ideal commit out of the files they wish to use for it rather than all changes on disk.
+		This is done by adding files to a staging area before committing those specific files.
+		This allows you to collect files with related changes out of all the files that have been changed to make semantic commits.
+		Most of the GUI Git clients abstract this away from you by showing checkmarks or another selection means to pick the files to stage.
 
 Git Basics
 	creating a repo
@@ -34,16 +41,13 @@ Git Basics
 		summary should indicate _what the change will do_ when applied to the project
 			Read as if: "This change [insert your summary here] when added to your repo."
 
+Commit Message Examples
+	list several examples of commit messages using the present indicative tense
+
 Git Remote Basics
 	cloning
 	fetching
 	pushing
-
-UM Remote Setup
-	create your keys
-	submit public key
-		(I'll create a repo for users as needed during the repo into Gitolite.)
-		see link on project readme
 
 Git Advanced Topics
 	branching
@@ -55,13 +59,6 @@ Git Advanced Topics
 		used to address conflicts when updating a branch from a remote repo
 	tagging
 		allows you to assign a more readable name to a particular set of changes
-
-Git Quirks
-	staging area
-		Git is fairly unique in allowing the user to craft an ideal commit out of the files they wish to use for it rather than all changes on disk.
-		This is done by adding files to a staging area before committing those specific files.
-		This allows you to collect files with related changes out of all the files that have been changed to make semantic commits.
-		Most of the GUI Git clients abstract this away from you by showing checkmarks or another selection means to pick the files to stage.
 
 UM Quirks
 	SAP Eclipse Projects
@@ -75,7 +72,7 @@ Get Git
 	Windows	http://windows.github.com
 		be sure to select Git For Windows rather than msysGit
 
-Post-install Setup
+UM Setup
 	setup global git config
 		git config --global user.name "First Last"
 		git config --global user.email user@host.tld
