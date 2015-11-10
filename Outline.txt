@@ -39,7 +39,7 @@ Git Basics
 	committing
 		message style (present indicative summary, free-form description)
 		summary should indicate _what the change will do_ when applied to the project
-			Read as if: "This change [insert your summary here] when added to your repo."
+			Read as if: "This change will [insert your summary here] when added to your repo."
 
 Commit Message Examples
 	list several examples of commit messages using the present indicative tense
